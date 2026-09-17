@@ -5,7 +5,9 @@ Output: print out the calculation of the average of these three integers
         returns nothing
 """
 def average_and_show_work(x, y, z):
-    return
+    total = x + y + z
+    avg = round(total / 3, 2)
+    print(f"({x} + {y} + {z}) / 3 = {total} / 3 = {avg}")
 
 """ Test 1 """
 def test_average_and_show_work():
